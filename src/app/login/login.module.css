@@ -1,0 +1,52 @@
+@keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.main {
+  height: calc(100dvh - 110px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+}
+
+.main p {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  display: inline-block;
+}
+
+.main span {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 16px 0 20px;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+  background-clip: text;
+  color: transparent;
+  animation: aitf 80s linear infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.main .kakao {
+  background-color: #fee500;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 15px 0px;
+  margin: 0 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #282b33;
+}
