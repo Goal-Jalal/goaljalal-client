@@ -35,11 +35,12 @@ export default function RootLayout({
           </div>
           <div className={styles.content}>{children}</div>
           <div className={styles.footer}>
-            <FooterIcon icon={<FaHouse />} text="홈" />
-            <FooterIcon icon={<FaPeopleGroup />} text="클럽" />
-            <FooterIcon icon={<FaFutbol />} text="매칭" />
-            <FooterIcon icon={<FaPerson />} text="용병" />
-            <FooterIcon icon={<FaAddressCard />} text="프로필" />
+            <FooterIcon icon={<FaHouse />} text="홈" link="/" />
+            <FooterIcon icon={<FaPeopleGroup />} text="클럽" link="/" />
+            <FooterIcon icon={<FaFutbol />} text="매칭" link="/" />
+            <FooterIcon icon={<FaPerson />} text="용병" link="/" />
+            {/* TODO:: 로그인 여부에 따른 분기 처리 */}
+            <FooterIcon icon={<FaAddressCard />} text="프로필" link="/login" />
           </div>
         </div>
       </body>
