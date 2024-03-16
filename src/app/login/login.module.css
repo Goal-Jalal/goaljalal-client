@@ -8,6 +8,7 @@
 }
 
 .main {
+  max-width: 540px;
   height: calc(100dvh - 110px);
   display: flex;
   flex-direction: column;
@@ -15,7 +16,7 @@
   gap: 32px;
   color: rgba(255, 255, 255, 0.25);
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .main p {
