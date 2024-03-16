@@ -1,0 +1,58 @@
+.main {
+  max-width: 540px;
+  height: calc(100dvh - 110px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main .title {
+  padding: 0 20px 30px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main .title span {
+  color: #ff501e !important;
+  background: linear-gradient(90deg, #ff501e 0%, #ffa528 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formItem label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff501e;
+}
+
+.formItem input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.main form button {
+  margin-top: 40px;
+  height: 45px;
+  background: linear-gradient(90deg, #ff501e 0%, #ffa528 100%);
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+}
