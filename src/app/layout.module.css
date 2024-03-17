@@ -4,31 +4,33 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180deg, #321450 0%, #230e38 100%);
+  background: #181a20;
 }
 
 .header {
   height: 55px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
-  background: #190a28;
+  gap: 5px;
+  padding: 10px;
+  background: #181a20;
+  font-size: 21px;
+  line-height: 1;
 }
 
-.header span {
-  font-size: 21px;
-  margin-left: 15px;
+.header div {
+  padding-bottom: 5px;
 }
 
 .content {
-  min-height: calc(100dvh - 110px);
+  min-height: calc(100dvh - 115px);
 }
 
 .footer {
-  height: 55px;
-  background: #190a28;
+  height: 60px;
+  background: #181a20;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-top: 1px solid #2b3139;
 }

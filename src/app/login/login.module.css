@@ -9,12 +9,12 @@
 
 .main {
   max-width: 540px;
-  height: calc(100dvh - 110px);
+  height: calc(100dvh - 115px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 32px;
-  color: rgba(255, 255, 255, 0.25);
+  color: #fcd535;
   text-align: center;
   margin: 0 auto;
 }

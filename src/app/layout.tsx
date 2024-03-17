@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import Image from "next/image";
 
 import {
   FaAddressCard,
@@ -36,7 +36,8 @@ export default function RootLayout({
       <body className={noto.className}>
         <div className={styles.container}>
           <div className={styles.header}>
-            <span>골잘알</span>
+            <Image src={"/logo.png"} alt="logo" width={25} height={25} />
+            <div>골잘알</div>
           </div>
           <div className={styles.content}>{children}</div>
           <div className={styles.footer}>
