@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import styles from "./main.module.css";
+import styles from "./footerIcon.module.css";
 
 interface FooterIconProps {
   icon: React.ReactNode;
