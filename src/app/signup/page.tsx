@@ -3,6 +3,7 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 
 import style from "./signup.module.css";
+import { useSession } from "next-auth/react";
 
 type SignUpForm = {
   name: string;
@@ -10,6 +11,9 @@ type SignUpForm = {
 };
 
 export default function SignUp() {
+  const { data: session } = useSession();
+  console.log(session);
+
   const {
     register,
     handleSubmit,
