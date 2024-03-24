@@ -16,7 +16,10 @@ body {
   color: #fff;
 }
 
-body {
+main {
+  max-width: 540px;
+  height: calc(100dvh - 115px);
+  margin: 0 auto;
 }
 
 a {
