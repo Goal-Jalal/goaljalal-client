@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main .btn {
+  padding: 10px 20px;
+  background: #fcd535;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #202630;
+}
